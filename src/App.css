@@ -1,3 +1,97 @@
 .App {
+  font-family: sans-serif;
   text-align: center;
+}
+.btn {
+  font-size: 14px;
+  position: relative;
+  top: -37px;
+  left: 410px;
+  font-family: "Mitr", sans-serif;
+  font-weight: 300;
+  border: 0.5px solid #c1c9ce;
+  transition: all 150ms ease-in-out;
+}
+.city {
+  position: relative;
+  top: 20px;
+  left: 20px;
+  font-family: "Mitr", sans-serif;
+}
+body {
+  font-family: "Mitr", sans-serif;
+  text-transform: capitalize;
+  line-height: 33px;
+}
+.cityList {
+  position: relative;
+  top: -54px;
+  left: 525px;
+  margin-left: 155px;
+  border: white;
+  background-color: white;
+  font-size: 14px;
+  font-family: "Mitr", sans-serif;
+  font-weight: 400;
+}
+.card-city {
+  font-size: 38px;
+  font-weight: 400;
+  position: relative;
+  top: 75px;
+  left: 45px;
+}
+.temp {
+  font-size: 100px;
+  position: relative;
+  top: 120px;
+  left: 65px;
+  font-weight: 200;
+}
+.fahrenheit {
+  position: relative;
+  top: 50px;
+  left: 230px;
+  border: transparent;
+  background-color: white;
+  font-weight: 200;
+  font-size: 30px;
+  text-decoration: none;
+}
+.celsius {
+  position: relative;
+  top: 50px;
+  left: 230px;
+  border: transparent;
+  background-color: white;
+  font-weight: 200;
+  font-size: 30px;
+  text-decoration: none;
+}
+.icon {
+  position: relative;
+  left: 435px;
+  top: -90px;
+}
+.date {
+  font-weight: 300;
+  font-size: 35px;
+  position: relative;
+  top: -100px;
+  left: 47px;
+}
+.weather-condition {
+  font-weight: 100;
+  font-size: 30px;
+  position: relative;
+  top: -95px;
+  left: 47px;
+}
+.weather-description {
+  position: relative;
+  top: -180px;
+  left: 465px;
+  font-weight: 200;
+  font-size: 20px;
+  font-weight: 400;
 }
