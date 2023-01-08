@@ -1,9 +1,9 @@
 import React from "react";
 
-export default function Date() {
+export default function Condition() {
   return (
     <div>
-      <p className="date">Sunday, 12</p>
+      <p className="weather-condition">Partly Cloudy</p>
     </div>
   );
 }
