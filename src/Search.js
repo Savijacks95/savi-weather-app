@@ -3,19 +3,19 @@ import React from "react";
 export default function Search() {
   return (
     <div className="column city">
+      <div>
+        <p className="date">Sunday, 12</p>
+      </div>
       <form id="search-form">
         <input
           type="text"
           className="form-control bg-transparent"
           id="city"
-          placeholder="Search City"
+          placeholder="Enter City"
           autoFocus="on"
         />
-        <button className="bg-transparent btn">GO</button>
       </form>
-      <div>
-        <p className="date">Sunday, 12</p>
-      </div>
+      <button className="bg-transparent btn">GO</button>
     </div>
   );
 }

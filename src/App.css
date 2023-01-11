@@ -5,8 +5,8 @@
 .btn {
   font-size: 14px;
   position: relative;
-  top: -37px;
-  left: 410px;
+  top: 0px;
+  left: 35px;
   font-family: "Mitr", sans-serif;
   font-weight: 300;
   border: 0.5px solid #c1c9ce;
@@ -14,25 +14,16 @@
 }
 .city {
   position: relative;
-  top: 20px;
-  left: 20px;
+  top: 333px;
+  left: 150px;
   font-family: "Mitr", sans-serif;
+  float: left;
+  width: 33.33%;
 }
 body {
   font-family: "Mitr", sans-serif;
   text-transform: capitalize;
   line-height: 33px;
-}
-.cityList {
-  position: relative;
-  top: -54px;
-  left: 525px;
-  margin-left: 155px;
-  border: white;
-  background-color: white;
-  font-size: 14px;
-  font-family: "Mitr", sans-serif;
-  font-weight: 400;
 }
 .card-city {
   font-size: 38px;
@@ -77,8 +68,8 @@ body {
   font-weight: 300;
   font-size: 35px;
   position: relative;
-  top: 80px;
-  left: 47px;
+  top: -28px;
+  left: 42px;
 }
 .weather-condition {
   font-weight: 100;
