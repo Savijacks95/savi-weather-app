@@ -5,6 +5,7 @@ import Search from "./Search";
 import Temp from "./Temp";
 import Link from "./link";
 import Description from "./Description";
+import HiLo from "./Hi-Lo";
 
 import "./App.css";
 import reportWebVitals from "./reportWebVitals";
@@ -16,6 +17,7 @@ root.render(
     <Search />
     <Temp />
     <Description />
+    <HiLo />
   </React.StrictMode>
 );
 

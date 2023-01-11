@@ -106,12 +106,33 @@ body {
   left: 600px;
 }
 .three {
-  height: 195px;
+  height: 175px;
   position: relative;
-  top: -880px;
+  top: -895px;
   left: 1150px;
-  width: 300px;
+  width: 250px;
 }
+.four {
+  height: 175px;
+  position: relative;
+  top: -1280px;
+  left: 1150px;
+  width: 250px;
+}
+.five {
+  height: 175px;
+  position: relative;
+  top: -900px;
+  left: 745px;
+  width: 250px;
+}
+.HighTemp {
+  text-align: center;
+}
+.LowTemp {
+  text-align: center;
+}
+
 .link {
   position: relative;
   top: 710px;
@@ -119,4 +140,9 @@ body {
 }
 a {
   text-decoration: none;
+}
+.forecast {
+  position: relative;
+  top: 250px;
+  text-align: center;
 }

@@ -1,4 +1,5 @@
 import React from "react";
+import Forecast from "./Forecast";
 
 export default function Temp() {
   return (
@@ -12,6 +13,7 @@ export default function Temp() {
             <div>
               <p className="weather-condition">Partly Cloudy</p>
             </div>
+            <Forecast />
           </div>
         </div>
       </div>
