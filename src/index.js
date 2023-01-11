@@ -4,7 +4,7 @@ import ReactDOM from "react-dom/client";
 import Search from "./Search";
 import City from "./City";
 import Temp from "./Temp";
-import Condition from "./Condition";
+
 import Description from "./Description";
 
 import "./App.css";
@@ -16,7 +16,6 @@ root.render(
     <Search />
     <City />
     <Temp />
-    <Condition />
     <Description />
   </React.StrictMode>
 );

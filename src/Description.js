@@ -9,6 +9,9 @@ export default function Description() {
       <div className="weather-description">
         Wind: <span className="wind"></span> mph
       </div>
+      <div className="weather-description">
+        Precipitation: <span className="precipitation"></span> %
+      </div>
     </div>
   );
 }
