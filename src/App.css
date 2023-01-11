@@ -113,6 +113,10 @@ body {
   width: 300px;
 }
 .link {
-  top: -880px;
-  left: 1150px;
+  position: relative;
+  top: 710px;
+  text-align: center;
+}
+a {
+  text-decoration: none;
 }
