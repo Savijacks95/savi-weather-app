@@ -1,3 +1,9 @@
+body {
+  font-family: "Mitr", sans-serif;
+  text-transform: capitalize;
+  line-height: 33px;
+  overflow: hidden;
+}
 .App {
   font-family: sans-serif;
   text-align: center;
@@ -6,17 +12,24 @@
   width: 25%;
   display: block;
   margin-bottom: 20px;
+  float: left;
 }
 .btn {
   font-size: 14px;
   position: relative;
-  top: 0px;
-  left: 35px;
+  top: 297px;
+  left: 250px;
   font-family: "Mitr", sans-serif;
   font-weight: 300;
   border: 0.5px solid #c1c9ce;
   transition: all 150ms ease-in-out;
-  width: min-content;
+  width: 25%;
+}
+.card {
+  height: 555px;
+  position: relative;
+  top: -250px;
+  width: 370px;
 }
 
 .city {
@@ -25,64 +38,77 @@
   left: 150px;
   font-family: "Mitr", sans-serif;
 }
+#city {
+  width: 60%;
+  display: block;
+  position: relative;
+  top: 333px;
+  left: 15px;
+}
 .date {
   font-weight: 300;
   font-size: 35px;
   position: relative;
-  top: -28px;
-  left: 42px;
+  top: 300px;
+  left: 85px;
 }
-body {
-  font-family: "Mitr", sans-serif;
-  text-transform: capitalize;
-  line-height: 33px;
-}
-.card-city {
-  font-size: 38px;
-  font-weight: 400;
+
+.city-name {
+  font-size: 55px;
+  font-weight: 100;
   position: relative;
-  top: 75px;
-  left: 45px;
+  top: 115px;
+  left: 85px;
 }
 .temp {
-  font-size: 100px;
+  font-size: 70px;
   position: relative;
-  top: 120px;
-  left: 65px;
+  top: 95px;
+  left: 175px;
   font-weight: 200;
 }
 .fahrenheit {
   position: relative;
-  top: 50px;
-  left: 200px;
+  top: 25px;
+  left: 265px;
   border: transparent;
-  background-color: white;
-  font-weight: 200;
-  font-size: 30px;
+  background-color: transparent;
   text-decoration: none;
 }
 .celsius {
   position: relative;
-  top: 50px;
-  left: 195px;
+  top: 25px;
+  left: 265px;
   border: transparent;
-  background-color: white;
-  font-weight: 200;
-  font-size: 30px;
+  background-color: transparent;
   text-decoration: none;
 }
-.icon {
+.weather-condition {
+  font-weight: 100;
+  font-size: 30px;
   position: relative;
-  left: 435px;
-  top: -90px;
+  top: 65px;
+  left: 155px;
 }
 
 .weather-description {
   position: relative;
-  top: 1px;
-  left: 1250px;
+  top: 30px;
+  left: 50px;
   font-weight: 200;
   font-size: 20px;
   font-weight: 400;
-  width: 33.33%;
+}
+.two {
+  height: 555px;
+  position: relative;
+  top: -492px;
+  left: 600px;
+}
+.three {
+  height: 195px;
+  position: relative;
+  top: -880px;
+  left: 1150px;
+  width: 300px;
 }

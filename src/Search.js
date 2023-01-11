@@ -6,6 +6,7 @@ export default function Search() {
       <div className="column city">
         <div className="card">
           <form id="search-form">
+            <div className="city-name">City</div>;
             <div>
               <p className="date">Sunday, 12</p>
             </div>
