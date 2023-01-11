@@ -8,7 +8,13 @@ export default function Temp() {
       <div className="column">
         <div className="card two">
           <div>
-            <img src={sun} width="100" height="50" alt="" />
+            <img
+              src={sun}
+              width="100"
+              height="100"
+              alt=""
+              className="weather-icon"
+            />
             <p className="temp">81</p>
             <button className="fahrenheit">F°</button>
             <button className="celsius">C°</button>

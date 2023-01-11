@@ -60,16 +60,22 @@ body {
   top: 115px;
   left: 85px;
 }
+.weather-icon {
+  position: relative;
+  top: 65px;
+  left: 30px;
+  font-weight: 200;
+}
 .temp {
   font-size: 70px;
   position: relative;
-  top: 95px;
+  top: 0px;
   left: 175px;
   font-weight: 200;
 }
 .fahrenheit {
   position: relative;
-  top: 25px;
+  top: -65px;
   left: 265px;
   border: transparent;
   background-color: transparent;
@@ -77,7 +83,7 @@ body {
 }
 .celsius {
   position: relative;
-  top: 25px;
+  top: -65px;
   left: 265px;
   border: transparent;
   background-color: transparent;
@@ -87,17 +93,16 @@ body {
   font-weight: 100;
   font-size: 30px;
   position: relative;
-  top: 65px;
+  top: 25px;
   left: 155px;
 }
 
 .weather-description {
   position: relative;
-  top: 30px;
-  left: 50px;
+  top: 35px;
+  left: 20px;
   font-weight: 200;
   font-size: 20px;
-  font-weight: 400;
 }
 .two {
   height: 555px;
@@ -143,6 +148,6 @@ a {
 }
 .forecast {
   position: relative;
-  top: 250px;
+  top: 110px;
   text-align: center;
 }
