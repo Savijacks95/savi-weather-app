@@ -1,8 +1,12 @@
 import React from "react";
 import Forecast from "./Forecast";
 import sun from "./sun.jpg";
+import axios from "axios";
 
 export default function Temp() {
+  let apiKey = `0f801bba3d6t60a3b33a098o4965a127`;
+  let city = `Savannah`;
+  let apiURL = `https://api.shecodes.io/weather/v1/current?query=${city}&key=${apiKey}&units=imperial`;
   return (
     <div className="row">
       <div className="column">
